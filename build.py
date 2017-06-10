@@ -2,24 +2,17 @@ import pandas as pd
 
 
 def add(ds1, ds2):
-    """
-    Enter your code here
-    """
-
+    dsAdd = ds1 + ds2
+    return dsAdd
 
 def subtract(ds1, ds2):
-    """
-    Enter your code here
-    """
-
+    dsSubt = ds1 - ds2
+    return dsSubt
 
 def multiply(ds1, ds2):
-    """
-    Enter your code here
-    """
-
+    dsMult = ds1 * ds2
+    return dsMult
 
 def divide(ds1, ds2):
-    """
-    Enter your code here
-    """
+    dsDiv = ds1 / ds2
+    return dsDiv
